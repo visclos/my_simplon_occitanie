@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500;6..12,700&display=swap');
+.bgRed{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(206,0,51,255);
+   
+}
+.textColor{
+    display: block;
+    width: 50%;
+    margin: auto;
+    color: white
+
+}
+
+.hSize{
+    font-family: Nunito Sans,sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pSize{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: flex-end;
+}
+.image{
+    height: auto;
+    width: auto;
+}
+
+.btnRed {
+    font-size: large;
+    margin-top: 50px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    box-shadow:1px 18px 15px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color:rgba(206,0,51,255) ;
+}

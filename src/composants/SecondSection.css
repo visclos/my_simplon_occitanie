@@ -1,0 +1,38 @@
+.titre{
+  text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.containerMap{
+    height: 500px;
+    width: 500px;
+}
+
+
+.containerBis {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Définit deux colonnes, la première occupant 1 fraction de l'espace et la deuxième 2 fractions */
+    grid-template-areas:
+        "header header"
+        "meteo map"
+        "selected-factory map"; /* Définit les zones pour chaque élément */
+    gap: 20px; /* Ajoute un espace entre les éléments */
+}
+
+.header {
+    grid-area: header; /* Place le titre dans la zone "header" */
+}
+
+.meteo {
+    grid-area: meteo; /* Place la météo dans la zone "meteo" */
+}
+
+.map {
+    grid-area: map; /* Place la carte dans la zone "map" */
+}
+
+.selected-factory {
+    grid-area: selected-factory; /* Place l'usine sélectionnée dans la zone "selected-factory" */
+}

@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.borderIcon {
+    padding: 4%;
+    margin: 10%;
+    border: solid;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.topBarHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    margin-left: 21%;
+}
+
+.Titlefirst {
+    font-size: small;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSmall {
+    width: 150px;
+    height: fit-content;
+}
+
+.boldText {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bolder;
+}
